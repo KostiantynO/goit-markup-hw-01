@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Веб Студия</title>
+    <title>Студия</title>
   </head>
   <body>
     <p hidden>
@@ -57,13 +57,13 @@
     </p>
 
     <!-- Заголовок сайта. ("Верхняя линия" из макета Figma)
-      Включает "лого + навигация" и "email + tel".
+      Включает "лого + навигацию" и "почта + телефон".
     -->
     <header>
-      <!-- Ссылка на страницу "WebStudio" (Логотип-Текст) -->
+      <!-- Ссылка в хедере на страницу "Студия" (Логотип-Текст) -->
       <a href="index.html" target="_blank" rel="noopener noreferrer">WebStudio</a>
 
-      <!-- Навигация - включает список однотипных ссылок на другие страницы сайта. -->
+      <!-- Навигация - список из однотипных ссылок на другие страницы сайта. -->
       <nav>
         <ul>
           <li><a href="#">Студия</a></li>
@@ -72,7 +72,7 @@
         </ul>
       </nav>
 
-      <!-- Список ссылок контактов (email + tel) -->
+      <!-- Список из ссылок на контакты (почта и телефон) -->
       <ul>
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
@@ -84,6 +84,7 @@
       <!-- "Шапка" из макета Figma -->
       <section>
         <h1>Эффективные решения для вашего бизнеса</h1>
+
         <button type="button">Заказать услугу</button>
       </section>
 
@@ -114,69 +115,110 @@
           </li>
         </ul>
       </section>
+
+      <!-- "Чем мы занимаемся" из макета Figma -->
+      <section>
+        <h2>Чем мы занимаемся</h2>
+
+        <!-- Список из 3-х сжатых изображений *.jpg -->
+        <ul>
+          <li>
+            <img
+              src="./images/squooshed/what-we-do-1.jpg"
+              alt="Разработчик делает разметку веб-страницы за ноутбуком"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/squooshed/what-we-do-2.jpg"
+              alt="Дизайнер сверяет макет UI интерфейса со смартфоном"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/squooshed/what-we-do-3.jpg"
+              alt="Дизайнер выбирает цвет из палитры на планшете"
+              width="370"
+              height="294"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <!-- "Наша команда" из макета Figma -->
+      <section>
+        <h2>Наша команда</h2>
+
+        <!-- Список из 4-х сжатых изображений *.jpg участников команды, с именем(заголовок3) и названием должности(параграф) -->
+        <ul>
+          <li>
+            <img
+              src="./images/squooshed/team-card-1.jpg"
+              alt="Молодой дизайнер в очках, с приветливой улыбкой, со стриженной бородой и в коричневой рубашке"
+              width="270"
+              height="260"
+            />
+            <h3>Игорь Демьяненко</h3>
+            <p lang="en">Product Designer</p>
+          </li>
+          <li>
+            <img
+              src="./images/squooshed/team-card-2.jpg"
+              alt="Молодая улыбающаяся разработчица в очках и в черном деловом костюме"
+              width="270"
+              height="260"
+            />
+            <h3>Ольга Репина</h3>
+            <p lang="en">Frontend Developer</p>
+          </li>
+          <li>
+            <img
+              src="./images/squooshed/team-card-3.jpg"
+              alt="Молодой маркетолог с уверенной улыбкой, легкой бородой и в светло-синей рубашке"
+              width="270"
+              height="260"
+            />
+            <h3>Николай Тарасов</h3>
+            <p lang="en">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/squooshed/team-card-4.jpg"
+              alt="Молодой дизайнер в очках, со сдержанной уверенной ухмылкой, бородат, в черной футболке"
+              width="270"
+              height="260"
+            />
+            <h3>Михаил Ермаков</h3>
+            <p lang="en">UI Designer</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
-    <!-- "Чем мы занимаемся" из макета Figma -->
-    <section>
-      <ul>
-        <li>
-          <img
-            src="./images/what-we-do-1-html-markup.jpg"
-            alt="what-we-do-1-html-markup"
-            width="370"
-            height="300"
-          />
-        </li>
-        <li>
-          <img
-            src="./images/what-we-do-2-css-layout.jpg"
-            alt="what-we-do-2-css-layout"
-            width="370"
-            height="300"
-          />
-        </li>
-        <li>
-          <img
-            src="./images/what-we-do-3-color-pallet.jpg"
-            alt="what-we-do-3-color-pallet"
-            width="370"
-            height="300"
-          />
-        </li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Наша команда</h2>
-      <ul>
-        <li>
-          <img src="./image/participant1.jpg" alt="participant1" width="270" height="260" />
-          <h3>Игорь Демьяненко</h3>
-          <p lang="en">Product Designer</p>
-        </li>
-        <li>
-          <img src="./image/participant2.jpg" alt="participant2" width="270" height="260" />
-          <h3>Ольга Репина</h3>
-          <p lang="en">Frontend Developer</p>
-        </li>
-        <li>
-          <img src="./image/participant3.jpg" alt="participant3" width="270" height="260" />
-          <h3>Николай Тарасов</h3>
-          <p lang="en">Marketing</p>
-        </li>
-        <li>
-          <img src="./image/participant4.jpg" alt="participant4" width="270" height="260" />
-          <h3>Михаил Ермаков</h3>
-          <p lang="en">UI Designer</p>
-        </li>
-      </ul>
-    </section>
-
-    <!-- Подвал сайта (с адрессом студии) -->
+    <!-- "Подвал" из макета Figma (с адрессом студии) -->
     <footer>
-      Link with text
-      <a href=""></a>
-      <address></address>
+      <!-- Ссылка в футере на страницу "Студия" (Логотип-Текст) -->
+      <a href="index.html" target="_blank" rel="noopener noreferrer">WebStudio</a>
+
+      <!-- "Address" из макета Figma (список из ссылок: точка на Gmaps, телефон и почта)-->
+      <address>
+        <ul>
+          <li>
+            <a
+              href="https://goo.gl/maps/HiSWEAjoAeCsFwUL7"
+              target="_blank"
+              rel="noopener noreferrer"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li><a href="mailto:info@example.com">info@example.com</a></li>
+          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+      </address>
     </footer>
   </body>
 </html>
